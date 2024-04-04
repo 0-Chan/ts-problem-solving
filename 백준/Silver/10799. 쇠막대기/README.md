@@ -1,6 +1,6 @@
-# [Silver II] 쇠막대기 - 10799 
+# [Silver II] 쇠막대기 - 10799
 
-[문제 링크](https://www.acmicpc.net/problem/10799) 
+[문제 링크](https://www.acmicpc.net/problem/10799)
 
 ### 성능 요약
 
@@ -26,7 +26,7 @@
 
 <p>아래 그림은 위 조건을 만족하는 예를 보여준다. 수평으로 그려진 굵은 실선은 쇠막대기이고, 점은 레이저의 위치, 수직으로 그려진 점선 화살표는 레이저의 발사 방향이다.</p>
 
-<p style="text-align: center;"><img alt="" src="" style="height:142px; width:267px"></p>
+<p style="text-align: center;"><img alt="" src="https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/10799/1.png" style="height:142px; width:267px"></p>
 
 <p>이러한 레이저와 쇠막대기의 배치는 다음과 같이 괄호를 이용하여 왼쪽부터 순서대로 표현할 수 있다.</p>
 
@@ -41,11 +41,10 @@
 
 <p>쇠막대기와 레이저의 배치를 나타내는 괄호 표현이 주어졌을 때, 잘려진 쇠막대기 조각의 총 개수를 구하는 프로그램을 작성하시오.</p>
 
-### 입력 
+### 입력
 
  <p>한 줄에 쇠막대기와 레이저의 배치를 나타내는 괄호 표현이 공백없이 주어진다. 괄호 문자의 개수는 최대 100,000이다. </p>
 
-### 출력 
+### 출력
 
  <p>잘려진 조각의 총 개수를 나타내는 정수를 한 줄에 출력한다.</p>
-
