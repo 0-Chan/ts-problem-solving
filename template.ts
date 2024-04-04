@@ -1,4 +1,5 @@
-// v1.0.0
+// v1.1.0
+export {};
 const [N, ...testCases] = require('fs')
   .readFileSync(
     process.platform === 'linux' ? 'dev/stdin' : __dirname + '/input.txt',
@@ -8,14 +9,17 @@ const [N, ...testCases] = require('fs')
   .split('\n') as Array<string>;
 
 const solution = (testCase: string) => {
-  console.log('🚀testCase:', testCase)
+  log(testCase);
 
   return;
 };
 
-console.log(
-  testCases.reduce(
+const log = (message: string) => console.log(message);
+const answer = (testCases: string[]) => {
+  return testCases.reduce(
     (acc, testCase) => `${acc}${solution(testCase)}\n`,
     ''
-  ),
-);
+  );
+};
+
+log(answer(testCases));
